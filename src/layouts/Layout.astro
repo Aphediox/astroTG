@@ -1,0 +1,257 @@
+---
+// Importa tus estilos y scripts aquí
+import '../theme.min.css'
+import '../theme.css'
+import '../public/fonts/inter-v12-latin-300.woff2'
+import '../public/fonts/inter-v12-latin-regular.woff2'
+import '../public/fonts/inter-v12-latin-500.woff2'
+import '../public/fonts/inter-v12-latin-700.woff2'
+
+---<!-- Tu contenido HTML aquí -->
+
+<style is:global>
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		background: #13151a;
+		background-size: 224px;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+</style> 
+<!-- Tu contenido HTML aquí -->
+  
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icon.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icon.png">
+  <title>Inicio</title>
+
+   <style>
+
+/* inter-300 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(''),
+       url('fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-400 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+       url('fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+       url('fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+</style>
+
+
+  </head>
+
+  <body class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll">
+
+    <nav id="navScroll" class="navbar navbar-dark bg-black fixed-top px-vw-5" tabindex="0">
+  <div class="container">
+    <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
+
+  <span class="ms-md-1 mt-1 fw-bolder me-md-5">TheGame</span>
+</a>
+
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
+      <li class="nav-item">
+  <a class="nav-link fs-5" href="index.html" aria-label="Homepage">
+    Inicio
+  </a>
+</li>
+<li class="nav-item">
+  <a class="nav-link fs-5" href="galeria.html" aria-label="A sample content page">
+    Galeria
+  </a>
+</li>
+
+
+    </ul>
+    
+</div>
+</nav>
+
+    <main>
+      <div class="container">
+  <div class="row d-flex justify-content-center py-vh-5 pb-0">
+    <div class="col-12 col-lg-10 col-xl-8">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-1 fw-bold"> <h1 class="display-1 fw-bold">
+            Técnicas
+            <span class="fs-4">de</span><br>
+            dibujo</h1>
+          <p class="lead border-top pt-5 mt-5" >Son los diferentes métodos que se usan para crear imágenes con diversos materiales e instrumentos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 py-vh-2">
+      <img src="/public/img/tec.jfif" width="1446" height="982" alt="tecnicas" class="img-fluid position-relative rounded-5 shadow" >
+    </div>
+    </div>
+        <div class="col-12 col-lg-10 col-xl-8">
+      <div class="row d-flex align-items-start" >
+        <div class="col-12 col-lg-7">
+          <h2 class="h3 mt-5 border-top pt-5">01. Dibujo a lapiz</h2>
+          <p class="text-secondary">
+            Consiste en usar lápices de grafito de diferentes durezas para trazar contornos, sombras y detalles. Es una técnica fácil y económica, ideal para principiantes.
+            </p>
+        </div>
+        <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
+          <a href="img/lapiz.jfif" target = "_blank"><img src="img/lapiz.jfif" width="200" height="200" alt="tecnica lapiz" class="img-fluid position-relative rounded-5 shadow"  >
+          </a>
+          </div>
+      </div>
+
+      <div class="row d-flex align-items-start" >
+        <div class="col-12 col-lg-7">
+          <h2 class="h3 mt-5 border-top pt-5">02. Dibujo a carboncillo</h2>
+          <p class="text-secondary">Consiste en usar barras de carbón vegetal o mineral para crear trazos oscuros y difuminados. Es una técnica que permite lograr efectos de luz y sombra muy expresivos.</p>
+        </div>
+        <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
+          <a href="img/carboncillo.jfif" target = "_blank"><img src="img/carboncillo.jfif" width="200" height="200" alt="tecnica lapiz" class="img-fluid position-relative rounded-5 shadow" >
+        </a>
+        </div>
+      </div>
+      <div class="row d-flex align-items-start" >
+        <div class="col-12 col-lg-7">
+          <h2 class="h3 mt-5 border-top pt-5">03. Dibujo con acuarela
+          </h2>
+          <p class="text-secondary">Consiste en usar pinceles con pinturas diluidas en agua para crear capas transparentes y superpuestas de color. 
+            Es una técnica que permite crear efectos de transparencia y luminosidad.</p>
+        </div>
+        <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
+          <a href="img/acuarela.jfif" target = "_blank"><img src="img/acuarela.jfif" width="200" height="200" alt="tecnica lapiz" class="img-fluid position-relative rounded-5 shadow" >
+          </a>
+        </div>
+      </div>
+      <div class="row d-flex align-items-start" >
+        <div class="col-12 col-lg-7">
+          <h2 class="h3 mt-5 border-top pt-5">04. Dibujo a sanguina</h2>
+          <p class="text-secondary">Consiste en usar lápices o barras de color rojizo, similar al de la sangre, para dibujar sobre papel de tono claro. 
+            Es una técnica que aporta calidez y realismo al dibujo. </p>
+        </div>
+        <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
+          <a href="img/sanguina.jfif" target = "_blank"><img src="img/sanguina.jfif" width="200" height="200" alt="tecnica lapiz" class="img-fluid position-relative rounded-5 shadow" >
+          </a>
+          </div>
+      </div>
+      <div class="row d-flex align-items-start" >
+        <div class="col-12 col-lg-7">
+          <h2 class="h3 mt-5 border-top pt-5">05. Dibujo digital</h2>
+          <p class="text-secondary">Consiste en usar programas informáticos y dispositivos electrónicos para crear imágenes en formato digital. 
+            Es una técnica que permite modificar, editar y compartir el dibujo fácilmente.</p>
+        </div>
+        <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
+          <a href="img/digital.jfif" target = "_blank"><img src="img/digital.jfif" width="200" height="200" alt="tecnica lapiz" class="img-fluid position-relative rounded-5 shadow" >
+          </a>
+        </div>
+      </div>
+
+      <div class="row d-flex align-items-start" >
+        <div class="col-12 col-lg-7">
+          <h2 class="h3 mt-5 border-top pt-5">06. Dibujo con tinta</h2>
+          <p class="text-secondary">Consiste en usar plumas, pinceles o rotuladores con tinta de diferentes colores para crear líneas y manchas. 
+            Es una técnica que requiere precisión y rapidez, ya que la tinta no se puede borrar.</p>
+        </div>
+        <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
+          <a href="img/tinta.jfif" target = "_blank"><img src="img/tinta.jfif" width="200" height="200" alt="tecnica lapiz" class="img-fluid position-relative rounded-5 shadow" >
+        </a>
+          </div>
+      </div>
+
+      <div class="row d-flex align-items-start" >
+        <div class="col-12 col-lg-7">
+          <h2 class="h3 mt-5 border-top pt-5">07. Dibujo con rotuladores</h2>
+          <p class="text-secondary">Consiste en usar marcadores de diferentes grosores y colores para crear trazos y rellenos. Es una técnica que ofrece una gran variedad de tonos y contrastes.
+          </p>
+        </div>
+        <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
+          <a href="img/rotuladores.jfif" target = "_blank"><img src="img/rotuladores.jfif" width="200" height="200" alt="tecnica lapiz" class="img-fluid position-relative rounded-5 shadow" >
+          </a>
+          </div>
+      </div>
+
+    </div>
+  </div>
+ 
+</div>
+
+    </main>
+
+    <footer class="bg-black border-top border-dark">
+  <div class="container py-vh-4 text-secondary fw-lighter">
+    <div class="row">
+      <div class="col-12 col-lg-5 py-4 text-center text-lg-start">
+            <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-stack" viewBox="0 0 16 16">
+    <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"/>
+    <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"/>
+  </svg>
+  <span class="ms-md-1 mt-1 fw-bolder me-md-5">TheGame</span>
+</a>
+
+      
+
+</footer>
+
+
+  </body>
+</html>
+
